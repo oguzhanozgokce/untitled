@@ -1,4 +1,4 @@
-package gettingStarted
+package gettingstarted
 
 class PowClass {
     fun pow(a: Int, b: Int) {

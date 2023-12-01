@@ -1,4 +1,4 @@
-package gettingStarted
+package gettingstarted
 
 class SumClass {
     fun sum() {

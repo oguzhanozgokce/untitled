@@ -1,5 +1,5 @@
-import gettingStarted.*
-import gettingStarted.SumClass
+import gettingstarted.*
+import gettingstarted.SumClass
 import kotlin.math.pow
 
 /**
