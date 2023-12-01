@@ -5,6 +5,12 @@ package basics
  *
  */
 
+/**
+ *  Implicit conversion : done by compiler - > Turkish translate -> Derleyici tarafindan yapilan donusum -> otomatik donusum
+ *  Explicit conversion : done by programmer - Turkish translate - > Programci tarafindan yapilan donusum - > belirgin donusum
+ *
+ */
+
 fun main() {
     var name  : String = "Oguzhan"
     println(name)
