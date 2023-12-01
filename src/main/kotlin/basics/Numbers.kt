@@ -46,4 +46,28 @@ fun main() {
 
     println("longNumber: $longNumber \nfloatNumber: $floatNumber  \ndoubleNumber: $doubleNumber")
 
+    //--------------------------------------------------------------------------------------------------------------
+
+    /** boxed types are used to represent the primitive types as objects
+     *  boxed types are nullable
+     *  boxed types are used to call methods on the primitive types
+     *  unboxed types are used to store the primitive types
+     *  unboxed types are not nullable
+     *  unboxed types are used to perform operations on the primitive types
+     */
+
+    val number : Int = 100                    // unboxed type
+    println(number===number)                  // true, referential equality
+    val boxedNumber : Int? = number           // boxing
+    val anotherBoxedNumber : Int? = number    // boxing
+    println(boxedNumber===anotherBoxedNumber) // false, structural equality  -> memory address is different
+
+    val number2 : Int = 101
+    println(number2==number2)                 // true, structural equality
+    val boxedNumber2 : Int? = number2         // boxing
+    val anotherBoxedNumber2 : Int? = number2  // boxing
+    println(boxedNumber2==anotherBoxedNumber2) // true, structural equality  -> values are the same
+
+    //--------------------------------------------------------------------------------------------------------------
+
 }
