@@ -1,3 +1,5 @@
+package gettingStarted
+
 class SumClass {
     fun sum() {
         val a = 1
