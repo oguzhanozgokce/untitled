@@ -12,12 +12,12 @@ fun main() {
     println("Are you a student ? (yes/no)")
     val answer = readLine()!!
     // state
-    if (answer.contains("yes", ignoreCase = true)) {       // contains -> Does it contain ? , ignoreCase -> ignore case sensitivity -> Turkis translate -> buyuk kucuk harf duyarliligini yoksay
+    if (answer.contains("yes", ignoreCase = true)) {       // contains -> Does it contain ? , ignoreCase -> ignore case sensitivity -> Turkish translate -> buyuk kucuk harf duyarliligini yoksay
         println("You are a student")
     } else {
         println("You are not a student")
     }
-    // expression
+    //
     val result : String = if(answer == "yes"){
         "You are a student"
     } else {
