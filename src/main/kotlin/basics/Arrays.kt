@@ -6,7 +6,7 @@ fun main() {
     /**
      * Arrays are mutable
      * [] is used when defining an array -> Turkish translate : Dizi tanimlamasi yapilirken [] kullanilir
-     * Array definition can be done with the arrayOf() function  -> Turkish translate : arrarrayOfeyOf() fonksiyonu ile dizi tanimlamasi yapilabilir
+     * Array definition can be done with the arrayOf() function  -> Turkish translate : arrayOf() fonksiyonu ile dizi tanimlamasi yapilabilir
      * Array definition can be done with the arrayOf<Any>() function -> Turkish translate : arrayOf<Any>() fonksiyonu ile herhangi bir tipde dizi tanimlamasi yapilabilir
      */
 

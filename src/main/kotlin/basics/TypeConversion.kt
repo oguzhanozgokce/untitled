@@ -23,8 +23,8 @@ fun main() {
     println(intValue) // 3
     println(intValue2) // 3
 
-    var longValue = 100L
-    var intValue3 = longValue.toInt()
+    val longValue = 100L
+    val intValue3 = longValue.toInt()
     println(intValue3) // 100
 
 
