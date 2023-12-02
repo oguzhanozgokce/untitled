@@ -109,6 +109,34 @@ fun main() {
             println("Number is greater than 999")
         }
     }
+    println("-------------------------------------")
+
+    //calculate
+    println("Enter a number one : ")
+    val numberOne = readln()!!.toInt()
+    println("Enter a number two : ")
+    val numberTwo = readln()!!.toInt()
+    println("Enter a operator : +, -, *, /")
+    val operator = readln()!!
+    when (operator){
+        "+" -> {
+            println("$numberOne + $numberTwo = ${numberOne+numberTwo}")
+        }
+        "-" -> {
+            println("$numberOne - $numberTwo = ${numberOne-numberTwo}")
+        }
+        "*" -> {
+            println("$numberOne * $numberTwo = ${numberOne*numberTwo}")
+        }
+        "/" -> {
+            println("$numberOne / $numberTwo = ${numberOne/numberTwo}")
+        }
+        else -> {
+            println("Invalid operator")
+        }
+    }
+
+
 
 
 }
