@@ -49,6 +49,7 @@ fun main() {
     var carNameMini = Array<Double>(5){
         3.14*(it+1)
     }
+
     carNameMini.forEach { println(it) } // 3.14 6.28 9.42 12.56 15.7
     println("------------------------------------")
 
