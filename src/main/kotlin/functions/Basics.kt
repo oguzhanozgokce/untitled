@@ -20,9 +20,15 @@ fun main() {
     println("Number Square : ${takeSquare(number = 5)}")
 
     println(2.0.pow(3.0)) // 2^3 = 8.0
+    println("-------------------------------------")
     reformatMessage("Engineering", true, 10, "EN")
-    reformatMessage("ComputerEngineering", size = 10, lang = "TR")
+    reformatMessage("ComputerEngineering", size = 10, lang = "TR")   // -> name argument : size argument , lang argument
     reformatMessage("AndroidDeveloper", size = 10)
+    println("-------------------------------------")
+    getUserInfo("oguzhan", "ozgokce", "address", "cardNumber" , key = 10)
+    getUserInfo(*arrayOf("oguzhan", "ozgokce", "address", "cardNumber"), key = 10)
+    getListCount()
+    getListCount2()
 
 }
 fun helloWorld() : Unit {
@@ -40,6 +46,30 @@ fun takeSquare(number : Int ) : Int {
 fun reformatMessage(message  : String, isUpperCase: Boolean = false , size: Int , lang: String = "TR") {
     println("message : $message , isUpperCase : $isUpperCase , size : $size , lang : $lang")
 
+}
+
+//----------------------------------------------------------------------------------------------------
+
+/**
+ * vararg -> variable arguments -> Turkish translate: degisken argumanlar
+ */
+fun getUserInfo(vararg userInfo : String, key: Int){  // can take many parameters -> Turkish translate: cok sayida parametre alabilir
+    for (info in userInfo){
+        println("info : $info")
+    }
+    println("-------------------------------------")
+}
+
+//----------------------------------------------------------------------------------------------------
+
+/**
+ *  function = value -> function can be assigned to a variable -> Turkish translate: fonksiyon degiskene atanabilir
+ */
+
+val userList = arrayOfNulls<String>(5)
+fun getListCount() : Int = userList.size   // expression
+fun getListCount2() : Int {
+    return userList.size
 }
 
 
