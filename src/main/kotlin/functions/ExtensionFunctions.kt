@@ -9,7 +9,8 @@ package functions
 // |_____________________________|
 fun main() {
     /**
-     *Hello World
+     *Extension functions are used to add new functions to existing classes.
+     *
      */
 }
 

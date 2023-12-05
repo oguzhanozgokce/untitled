@@ -2,6 +2,14 @@ import gettingstarted.*
 import gettingstarted.SumClass
 import kotlin.math.pow
 
+// Code with ♥️
+// _______________________________
+// |					         |
+// |  Created by Oguzhan OZGOKCE |
+// |					         |
+// |  oguzhanozgokce34@Android.  |
+// |_____________________________|
+
 /**
  * This is a documentation comment
  */
@@ -26,5 +34,8 @@ fun main(args: Array<String>) {
     powClass.pow(2, 3)
 
     3.14.pow(2.0)
+
+    // branch 1 commit 1
+    // branch 1 commit 2
 
 }
