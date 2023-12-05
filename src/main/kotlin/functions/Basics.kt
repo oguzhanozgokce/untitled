@@ -25,13 +25,13 @@ fun main() {
     reformatMessage("ComputerEngineering", size = 10, lang = "TR")   // -> name argument : size argument , lang argument
     reformatMessage("AndroidDeveloper", size = 10)
     println("-------------------------------------")
-    getUserInfo("oguzhan", "ozgokce", "address", "cardNumber" , key = 10)
-    getUserInfo(*arrayOf("oguzhan", "ozgokce", "address", "cardNumber"), key = 10)
+    getUserInfo("oguzhan", "ozgokce", "address", "cardNumber")
+    getUserInfo(*arrayOf("oguzhan", "ozgokce", "address", "cardNumber"))
     getListCount()
     getListCount2()
 
 }
-fun helloWorld() : Unit {
+fun helloWorld() {
     println("Hello World")
 }
 fun takeSquare(number : Int ) : Int {
@@ -53,7 +53,7 @@ fun reformatMessage(message  : String, isUpperCase: Boolean = false , size: Int 
 /**
  * vararg -> variable arguments -> Turkish translate: degisken argumanlar
  */
-fun getUserInfo(vararg userInfo : String, key: Int){  // can take many parameters -> Turkish translate: cok sayida parametre alabilir
+fun getUserInfo(vararg userInfo: String){  // can take many parameters -> Turkish translate: cok sayida parametre alabilir
     for (info in userInfo){
         println("info : $info")
     }
